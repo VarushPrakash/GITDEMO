@@ -8,10 +8,10 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import text
 from snowflake.connector.pandas_tools import write_pandas
 
-#Ensure the table name (context), idcol and fetchcol are in correct case in the config file as required by MySql
+#Ensure the table name (context), idco  l and fetchcol are in correct case in the config file as required by MySql
 '''
 SQLAclchemy converts the column nmaes to lower case so to reconstruct DMLs actual cases are used 
-but for referring/comparing column names lower cases are used
+but for referring/comparing column names lower cases are used    
 '''
 orgfilepathname = "C:\\Users\\SreedharanSrinivasan\\OneDrive - CORL Technologies\\Desktop\\Integration\\Configs\\org_discovery.csv"
 metafilepathname = "C:\\Users\\SreedharanSrinivasan\\OneDrive - CORL Technologies\\Desktop\\Integration\\Configs\\data_discovery_sql.csv"
