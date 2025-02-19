@@ -21,12 +21,40 @@ def calculate_area(l,b):
     area=l*b
     print(f"{l}*{b}={area}")
 
-calculate_area(3,5)
+"""calculate_area(3,5)"""
 
 def contact(name,number,city):
     print(f"{name} from {city} contact number: {number}")
 
 contact("Varush",654,"Madurai")
+
+def area_cal(length,breadth):
+    """length=float(input("Enter length: "))
+    breadth=float(input("Enter breadth: "))"""
+
+    area=length*breadth
+    print(area)
+    area_cal(7,7)
+
+
+def addno(a,b):
+    result = a+b
+    return result
+
+
+def cal_rectangle(length,width):
+    area= length*width
+    perimeter=2*(length*width)
+    return area,perimeter
+
+rectangle_area,rect_perimeter=cal_rectangle(2,2)
+
+print(rect_perimeter)
+print(rectangle_area)
+
+
+
+
 
 
 
