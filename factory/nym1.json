@@ -1,0 +1,16 @@
+{
+	"name": "nym1",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2ce8c3be-33f0-4c60-801c-943a881e549e",
+		"tenantId": "8d110aa1-92f3-4ff2-a582-93b397037056"
+	}
+}
