@@ -50,13 +50,19 @@
 				"inputs": [
 					{
 						"referenceName": "DelimitedText1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"rawingest": "sales_clean.csv"
+						}
 					}
 				],
 				"outputs": [
 					{
 						"referenceName": "DelimitedText1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"rawingest": "sales_clean.csv"
+						}
 					}
 				]
 			}
